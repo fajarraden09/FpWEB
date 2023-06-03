@@ -5,29 +5,29 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Profil Guru</title>
+  <title>jadwal</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.gstatic.com" rel="preconnect">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
-  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="vendor/simple-datatables/style.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 
 </head>
 
@@ -38,7 +38,7 @@
 
   <div class="d-flex align-items-center">
     <a href="index.php" class=" d-flex ">
-      <img src="assets/img/lg.png" alt="" width="50px" height="50px">    
+      <img src="img/lg.png" alt="" width="50px" height="50px">    
     </a>
     
   </div><!-- End Logo -->
@@ -68,7 +68,7 @@
   <ul class="sidebar-nav" id="sidebar-nav">
 
     <li class="nav-item">
-      <a class="nav-link " href="index.php">
+      <a class="nav-link " href="/">
         <i class="bi bi-grid"></i>
         <span>Dashboard</span>
       </a>
@@ -81,18 +81,23 @@
       </a>
       <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
         <li>
-        <a href="profil-guru.php" class="active">
-            <i class="bi bi-circle"></i><span>Profil Guru</span>
+          <a href="data-guru.blade.php">
+            <i class="bi bi-circle"></i><span>Data Guru</span>
           </a>
         </li>
         <li>
           <a href="nilai-siswa.php">
-            <i class="bi bi-circle"></i><span>Nilai Siswa</span>
+            <i class="bi bi-circle"></i><span>Data Jadwal</span>
           </a>
         </li>
         <li>
           <a href="gaji-guru.php">
-            <i class="bi bi-circle"></i><span>Gaji Guru</span>
+            <i class="bi bi-circle"></i><span>Data Riwayat dan Gaji </span>
+          </a>
+        </li>
+        <li>
+          <a href="forms-editors.html">
+            <i class="bi bi-circle"></i><span>Data Mapel</span>
           </a>
         </li>
       </ul>
@@ -106,41 +111,27 @@
       <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
         <li>
           <a href="forms-elements.html">
-            <i class="bi bi-circle"></i><span>Form Elements</span>
+            <i class="bi bi-circle"></i><span>Data Siswa</span>
           </a>
         </li>
         <li>
           <a href="forms-layouts.html">
-            <i class="bi bi-circle"></i><span>Form Layouts</span>
+            <i class="bi bi-circle"></i><span>Data Wali Siswa</span>
           </a>
         </li>
         <li>
           <a href="forms-editors.html">
-            <i class="bi bi-circle"></i><span>Form Editors</span>
+            <i class="bi bi-circle"></i><span>Data Pembayaran</span>
+          </a>
+        </li>
+        <li>
+          <a href="forms-editors.html">
+            <i class="bi bi-circle"></i><span>Data Kelas</span>
           </a>
         </li>
       </ul>
     </li>
-    
-    <!-- Bagian Profil Sekolah -->
-    <li class="nav-item">
-      <a class="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
-        <i class="bi bi-layout-text-window-reverse"></i><span>Profil Sekolah</span><i class="bi bi-chevron-down ms-auto"></i>
-      </a>
-      <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-        <li>
-          <a href="tables-general.html">
-            <i class="bi bi-circle"></i><span>General Tables</span>
-          </a>
-        </li>
-        <li>
-          <a href="tables-data.html">
-            <i class="bi bi-circle"></i><span>Data Tables</span>
-          </a>
-        </li>
-      </ul>
-    </li>
-    
+          
     <!-- Bagian Program Sekolah -->
     <li class="nav-item">
       <a class="nav-link collapsed" data-bs-target="#charts-nav" data-bs-toggle="collapse" href="#">
@@ -149,20 +140,55 @@
       <ul id="charts-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
         <li>
           <a href="charts-chartjs.html">
-            <i class="bi bi-circle"></i><span>Chart.js</span>
+            <i class="bi bi-circle"></i><span>Pembangunan</span>
           </a>
         </li>
         <li>
           <a href="charts-apexcharts.html">
-            <i class="bi bi-circle"></i><span>ApexCharts</span>
+            <i class="bi bi-circle"></i><span>Program Praktikum</span>
           </a>
         </li>
         <li>
           <a href="charts-echarts.html">
-            <i class="bi bi-circle"></i><span>ECharts</span>
+            <i class="bi bi-circle"></i><span>Program Lomba</span>
+          </a>
+        </li>
+        <li>
+          <a href="charts-echarts.html">
+            <i class="bi bi-circle"></i><span>Kunjungan Industri</span>
+          </a>
+        </li>
+        <li>
+          <a href="charts-echarts.html">
+            <i class="bi bi-circle"></i><span>Program Eksul</span>
+          </a>
+        </li>
+        <li>
+          <a href="charts-echarts.html">
+            <i class="bi bi-circle"></i><span>Program Kerja Sama</span>
+          </a>
+        </li>
+        <li>
+          <a href="charts-echarts.html">
+            <i class="bi bi-circle"></i><span>Program Magang</span>
           </a>
         </li>
       </ul>
+    </li>
+
+    <!-- Bagian Profil Sekolah -->
+    <li class="nav-item" href="profil-sekolah.php">
+      <a class="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
+        <i class="bi bi-layout-text-window-reverse" href="profil-sekolah.php"></i><span>Profil Sekolah</span><i class="bi bi-chevron-down ms-auto"></i>
+      </a>
+    </li>
+
+
+    <!-- Bagian Login -->
+    <li class="nav-item" href="profil-sekolah.php">
+      <a class="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
+        <i class="bi bi-layout-text-window-reverse" href="profil-sekolah.php"></i><span>Login</span><i class="bi bi-chevron-down ms-auto"></i>
+      </a>
     </li>
 
   </ul>
@@ -210,17 +236,17 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/chart.js/chart.umd.js"></script>
-  <script src="assets/vendor/echarts/echarts.min.js"></script>
-  <script src="assets/vendor/quill/quill.min.js"></script>
-  <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
-  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/chart.js/chart.umd.js"></script>
+  <script src="vendor/echarts/echarts.min.js"></script>
+  <script src="vendor/quill/quill.min.js"></script>
+  <script src="vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="vendor/tinymce/tinymce.min.js"></script>
+  <script src="vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="js/main.js"></script>
 
 </body>
 

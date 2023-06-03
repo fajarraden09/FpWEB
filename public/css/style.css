@@ -1,11 +1,3 @@
-/**
-* Template Name: NiceAdmin
-* Updated: Mar 09 2023 with Bootstrap v5.2.3
-* Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -39,17 +31,6 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# icon
---------------------------------------------------------------*/
-.sidebar-button {
-  font-size: 50px;
-  padding-left: 10px;
-  cursor: pointer;
-  color: #012970;
-}
-
-
-/*--------------------------------------------------------------
 # Main
 --------------------------------------------------------------*/
 #main {
@@ -63,14 +44,6 @@ h6 {
     padding: 20px;
   }
 }
-
-.main .sidebar-button {
-  font-size: 50px;
-  padding-left: 10px;
-  cursor: pointer;
-  color: #012970;
-}
-
 
 /*--------------------------------------------------------------
 # Page Title
@@ -406,7 +379,12 @@ h6 {
   /* Search Bar */
 }
 
-
+.header .toggle-sidebar-btn {
+  font-size: 32px;
+  padding-left: 10px;
+  cursor: pointer;
+  color: #012970;
+}
 
 .header .search-bar {
   min-width: 360px;
