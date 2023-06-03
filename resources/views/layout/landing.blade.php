@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Dashboard</title>
+  <title>E-School | {{ $title }}</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -92,12 +92,12 @@
             </a>
           </li>
           <li>
-            <a href="gaji-guru.php">
+            <a href="/riwayat-gaji">
               <i class="bi bi-circle"></i><span>Data Riwayat dan Gaji </span>
             </a>
           </li>
           <li>
-            <a href="forms-editors.html">
+            <a href="/mapel">
               <i class="bi bi-circle"></i><span>Data Mapel</span>
             </a>
           </li>
@@ -111,22 +111,22 @@
         </a>
         <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
           <li>
-            <a href="forms-elements.html">
+            <a href="/data-siswa">
               <i class="bi bi-circle"></i><span>Data Siswa</span>
             </a>
           </li>
           <li>
-            <a href="forms-layouts.html">
+            <a href="/wali-siswa">
               <i class="bi bi-circle"></i><span>Data Wali Siswa</span>
             </a>
           </li>
           <li>
-            <a href="forms-editors.html">
+            <a href="/pembayaran">
               <i class="bi bi-circle"></i><span>Data Pembayaran</span>
             </a>
           </li>
           <li>
-            <a href="forms-editors.html">
+            <a href="/data-kelas">
               <i class="bi bi-circle"></i><span>Data Kelas</span>
             </a>
           </li>
@@ -140,37 +140,37 @@
         </a>
         <ul id="charts-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
           <li>
-            <a href="charts-chartjs.html">
+            <a href="/pembangunan">
               <i class="bi bi-circle"></i><span>Pembangunan</span>
             </a>
           </li>
           <li>
-            <a href="charts-apexcharts.html">
+            <a href="/program-praktikum">
               <i class="bi bi-circle"></i><span>Program Praktikum</span>
             </a>
           </li>
           <li>
-            <a href="charts-echarts.html">
+            <a href="/program-lomba">
               <i class="bi bi-circle"></i><span>Program Lomba</span>
             </a>
           </li>
           <li>
-            <a href="charts-echarts.html">
+            <a href="/kunjungan-industri">
               <i class="bi bi-circle"></i><span>Kunjungan Industri</span>
             </a>
           </li>
           <li>
-            <a href="charts-echarts.html">
-              <i class="bi bi-circle"></i><span>Program Eksul</span>
+            <a href="/program-ekskul">
+              <i class="bi bi-circle"></i><span>Program Ekskul</span>
             </a>
           </li>
           <li>
-            <a href="charts-echarts.html">
+            <a href="/kerja-sama">
               <i class="bi bi-circle"></i><span>Program Kerja Sama</span>
             </a>
           </li>
           <li>
-            <a href="charts-echarts.html">
+            <a href="/program-magang">
               <i class="bi bi-circle"></i><span>Program Magang</span>
             </a>
           </li>
@@ -179,7 +179,7 @@
 
       <!-- Bagian Profil Sekolah -->
       <li class="nav-item">
-        <a class="nav-link collapsed" href="users-profile.html">
+        <a class="nav-link collapsed" href="/profile">
           <i class="bi bi-person"></i>
           <span>Profile</span>
         </a>

@@ -5,12 +5,12 @@
     <main id="main" class="main">
       <!-- page -->
       <div class="pagetitle">
-      <h1>Jadwal</h1>
+      <h1>Pembayaran</h1>
       <nav>
       <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-              <li class="breadcrumb-item">Data Guru</li>
-              <li class="breadcrumb-item active">Jadwal</li>
+              <li class="breadcrumb-item">Data Siswa</li>
+              <li class="breadcrumb-item active">Pembayaran</li>
           </ol>
       </nav>
       </div>
