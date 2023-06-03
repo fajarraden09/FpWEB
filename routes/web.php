@@ -22,5 +22,9 @@ Route::get('/login', function () {
 });
 
 Route::get('/data-guru', function () {
-    return view('data-guru');
+    return view('dataguru.data-guru');
+});
+
+Route::get('/jadwal', function () {
+    return view('dataguru.jadwal');
 });
