@@ -2,29 +2,162 @@
 
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider and all of them will
-| be assigned to the "web" middleware group. Make something great!
-|
-*/
-
+//############################################################
+// Route Dashboard
 Route::get('/', function () {
-    return view('dashboard');
+    return view('dashboard', [
+        "title" => "Dashboard"
+    ]);
 });
 
-Route::get('/login', function () {
-    return view('login');
-});
 
+//############################################################
+// Route DATA GURU
+// ----------------------------------------------------
+// Data Guru
 Route::get('/data-guru', function () {
-    return view('dataguru.data-guru');
+    return view('dataguru.data-guru', [
+        "title" => "Data Guru"
+    ]);
 });
 
+// ----------------------------------------------------
+// Jadwal Guru
 Route::get('/jadwal', function () {
-    return view('dataguru.jadwal');
+    return view('dataguru.jadwal', [
+        "title" => "Jadwal"
+    ]);
 });
+
+// ----------------------------------------------------
+// Data Riwayat dan Gaji
+Route::get('/riwayat-gaji', function () {
+    return view('dataguru.riwayat-gaji', [
+        "title" => "Riwayat & Gaji"
+    ]);
+});
+
+// ----------------------------------------------------
+// Data Mapel
+Route::get('/mapel', function () {
+    return view('dataguru.mapel', [
+        "title" => "Data Mapel"
+    ]);
+});
+
+
+//############################################################
+// Route DATA SISWA
+// ----------------------------------------------------
+// Data siswa
+Route::get('/data-siswa', function () {
+    return view('datasiswa.data-siswa', [
+        "title" => "Data Siswa"
+    ]);
+});
+
+// ----------------------------------------------------
+// Data wali siswa
+Route::get('/wali-siswa', function () {
+    return view('datasiswa.wali-siswa', [
+        "title" => "Data Wali Siswa"
+    ]);
+});
+
+// ----------------------------------------------------
+// Data Pembayaran
+Route::get('/pembayaran', function () {
+    return view('datasiswa.pembayaran', [
+        "title" => "Pembayaran"
+    ]);
+});
+
+// ----------------------------------------------------
+// Data Kelas
+Route::get('/data-kelas', function () {
+    return view('datasiswa.data-kelas', [
+        "title" => "Data Kelas"
+    ]);
+});
+
+
+//############################################################
+// Route PROGRAM SEKOLAH
+// ----------------------------------------------------
+// Pembangunan
+Route::get('/pembangunan', function () {
+    return view('program.pembangunan', [
+        "title" => "Pembangunan"
+    ]);
+});
+
+// ----------------------------------------------------
+// Program Praktikum
+Route::get('/program-praktikum', function () {
+    return view('program.program-praktikum', [
+        "title" => "Program Praktikum"
+    ]);
+});
+
+// ----------------------------------------------------
+// Program Lomba
+Route::get('/program-lomba', function () {
+    return view('program.program-lomba', [
+        "title" => "Program Lomba"
+    ]);
+});
+
+// ----------------------------------------------------
+// Kunjungan Industri
+Route::get('/kunjungan-industri', function () {
+    return view('program.kunjungan-industri', [
+        "title" => "Kunjungan Industri "
+    ]);
+});
+
+// ----------------------------------------------------
+// Program Ekskul
+Route::get('/program-ekskul', function () {
+    return view('program.program-ekskul', [
+        "title" => "Program Ekskul"
+    ]);
+});
+
+// ----------------------------------------------------
+// Program Kerja Sama
+Route::get('/kerja-sama', function () {
+    return view('program.kerja-sama', [
+        "title" => "Kerja Sama"
+    ]);
+});
+
+// ----------------------------------------------------
+// Program Magang
+Route::get('/program-magang', function () {
+    return view('program.program-magang', [
+        "title" => "Program Magang"
+    ]);
+});
+
+
+//############################################################
+// Route Profil Sekolah
+Route::get('/profile', function () {
+    return view('profil.profile', [
+        "title" => "Profil Sekolah"
+    ]);
+});
+
+//############################################################
+// Route Login
+Route::get('/login', function () {
+    return view('login', [
+        "title" => "Login"
+    ]);
+});
+
+
+
+
+
+

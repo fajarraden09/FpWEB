@@ -10,7 +10,7 @@
       <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="index.php">Home</a></li>
               <li class="breadcrumb-item">Data Guru</li>
-              <li class="breadcrumb-item active">Profil Guru</li>
+              <li class="breadcrumb-item active">Dashboard</li>
           </ol>
       </nav>
       </div>
