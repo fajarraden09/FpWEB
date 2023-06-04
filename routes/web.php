@@ -3,9 +3,18 @@
 use Illuminate\Support\Facades\Route;
 
 //############################################################
-// Route Dashboard
+// Route HOME
 Route::get('/', function () {
-    return view('dashboard', [
+    return view('home.home', [
+        "title" => "HOME"
+    ]);
+});
+
+
+//############################################################
+// Route Dashboard
+Route::get('/dashboard', function () {
+    return view('home.dashboard', [
         "title" => "Dashboard"
     ]);
 });
@@ -150,12 +159,19 @@ Route::get('/profile', function () {
 
 //############################################################
 // Route Login
-Route::get('/login', function () {
-    return view('login', [
+// Login Guru
+Route::get('/login-guru', function () {
+    return view('login.login-guru', [
         "title" => "Login"
     ]);
 });
 
+// Login siswa
+Route::get('/login-siswa', function () {
+    return view('login.login-siswa', [
+        "title" => "Login"
+    ]);
+});
 
 
 

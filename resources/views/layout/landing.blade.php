@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<>
+<head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
@@ -45,7 +45,7 @@
 
     {{-- logo --}}
     <div class="d-flex align-items-center p-5">
-      <a href="/" class="d-flex align-items-center">
+      <a href="/dashboard" class="d-flex align-items-center">
         <img src="img/lg.png" alt="" width="50px" height="50px">
         <span class="d-none d-lg-block">DASHBOARD GURU</span>
       </a>
@@ -69,7 +69,14 @@
     <ul class="sidebar-nav" id="sidebar-nav">
 
       <li class="nav-item">
-        <a class="nav-link " href="/">
+        <a class="nav-link collapsed" href="/">
+          <i class="bi bi-grid"></i>
+          <span>Home</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link " href="/dashboard">
           <i class="bi bi-grid"></i>
           <span>Dashboard</span>
         </a>
