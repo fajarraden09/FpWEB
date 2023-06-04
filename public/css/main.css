@@ -398,14 +398,13 @@ section {
   }
 
   .navbar .megamenu ul {
-    right: 0;
     padding: 10px;
     display: flex;
   }
 
-  .navbar .megamenu ul li {
+  /* .navbar .megamenu ul li {
     flex: 1;
-  }
+  } */
 
   .navbar .megamenu ul li a,
   .navbar .megamenu ul li:hover>a {
