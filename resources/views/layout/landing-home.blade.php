@@ -89,7 +89,7 @@
         <div class="row">
           <div class="col-lg-5 col-md-2" >
             <div class="footer-info">
-              <h3>SMA NEGER1 YOGYAKARTA</h3>
+              <h3>SMA NEGERI YOGYAKARTA</h3>
               <p>
                 Abdul Khoir <br>
                 pasar concat, Sleman<br><br>

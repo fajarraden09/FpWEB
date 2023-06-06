@@ -94,9 +94,9 @@ Route::get('/data-kelas', function () {
 // Route PROGRAM SEKOLAH
 // ----------------------------------------------------
 // Pembangunan
-Route::get('/pembangunan', function () {
-    return view('program.pembangunan', [
-        "title" => "Pembangunan"
+Route::get('/pengembangan', function () {
+    return view('program.pengembangan', [
+        "title" => "Pengembangan"
     ]);
 });
 

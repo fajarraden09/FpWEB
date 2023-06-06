@@ -2,7 +2,6 @@
 
 <!-- ======= BAGIAN PAGES ======= -->
   @section('main')
-    <main id="main" class="main">
       <!-- page -->
       <div class="pagetitle">
       <h1>Riwayat Dan Gaji</h1>
@@ -27,8 +26,6 @@
           <!-- End Right side columns -->
 
       </div>
-      </section>
-
-    </main>
+    </section>
   @endsection
 <!-- End PAGES -->

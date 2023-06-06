@@ -10,7 +10,7 @@
                 <p></p>
             </div>
         </section>
-
+        <div class id="isi profil"></div>
     <!-- ======= PROFIL SEKOLAH ======= -->
         <section id="profil" class="profil">
             <div class="container" data-aos="fade-up">

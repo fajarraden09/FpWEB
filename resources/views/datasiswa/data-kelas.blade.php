@@ -2,7 +2,6 @@
 
 <!-- ======= BAGIAN PAGES ======= -->
   @section('main')
-    <main id="main" class="main">
       <!-- page -->
       <div class="pagetitle">
       <h1>Data Kelas</h1>
@@ -28,7 +27,5 @@
 
       </div>
       </section>
-
-    </main>
   @endsection
 <!-- End PAGES -->

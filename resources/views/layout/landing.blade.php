@@ -47,7 +47,7 @@
     <div class="d-flex align-items-center p-5">
       <a href="/dashboard" class="d-flex align-items-center">
         <img src="img/lg.png" alt="" width="50px" height="50px">
-        <span class="d-none d-lg-block">DASHBOARD GURU</span>
+        <span class="d-none d-lg-block p-2">DASHBOARD GURU</span>
       </a>
     </div>
     {{-- end logo --}}
@@ -70,7 +70,7 @@
 
       <li class="nav-item">
         <a class="nav-link collapsed" href="/">
-          <i class="bi bi-grid"></i>
+          <i class="bi bi-house"></i>
           <span>Home</span>
         </a>
       </li>
@@ -147,8 +147,8 @@
         </a>
         <ul id="charts-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
           <li>
-            <a href="/pembangunan">
-              <i class="bi bi-circle"></i><span>Pembangunan</span>
+            <a href="/pengembangan">
+              <i class="bi bi-circle"></i><span>Pengembangan</span>
             </a>
           </li>
           <li>
@@ -188,20 +188,18 @@
       <li class="nav-item">
         <a class="nav-link collapsed" href="/profile">
           <i class="bi bi-person"></i>
-          <span>Profile</span>
+          <span>Profile Sekolah</span>
         </a>
       </li>
 
       <!-- Bagian Login -->
       <li class="nav-item">
-        <a class="nav-link collapsed" href="/login">
+        <a class="nav-link collapsed" href="/login-guru">
           <i class="bi bi-box-arrow-in-right"></i>
           <span>Login</span>
         </a>
       </li>
-
     </ul>
-
   </aside>
 <!-- End SIDEBAR-->
 
