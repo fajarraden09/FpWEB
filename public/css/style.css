@@ -29,6 +29,25 @@ h5,
 h6 {
   font-family: "Nunito", sans-serif;
 }
+/* custom */
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+  .h-custom {
+  height: 100%;
+  }
+}
+.login-custom {
+  background-color: white;
+}
+.login-custom button {
+  color: white;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  background-color: #012970;
+}
+/* custom */
 
 /*--------------------------------------------------------------
 # Main
@@ -1223,3 +1242,4 @@ h6 {
   font-size: 13px;
   color: #012970;
 }
+
